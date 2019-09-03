@@ -1,3 +1,6 @@
 AllCops:
   Exclude:
-    - '_site/**/*'
+    - _site/**/*
+
+Metrics/LineLength:
+  Enabled: false
